@@ -1,0 +1,9 @@
+[project]
+name = "green-real-estate-incentive"
+description = "Token-based incentive program for sustainable property upgrades"
+version = "0.1.0"
+
+[contracts]
+green-token = { path = "contracts/green-token.clar" }
+sustainability-registry = { path = "contracts/sustainability-registry.clar" }
+reward-mechanism = { path = "contracts/reward-mechanism.clar" }
